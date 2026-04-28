@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fafafa;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #111827;
+  color: white;
+  padding: 28px 60px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+nav {
+  margin-top: 16px;
+}
+
+nav a {
+  color: white;
+  margin-right: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 950px;
+  margin: 40px auto;
+  padding: 0 24px;
+}
+
+.card {
+  background: white;
+  padding: 24px;
+  margin-bottom: 24px;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+
+h2 {
+  color: #111827;
+  margin-top: 0;
+}
+
+.button {
+  display: inline-block;
+  background-color: #111827;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-right: 8px;
+}
+
+.button:hover {
+  background-color: #374151;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #666;
+}
+
+@media (max-width: 700px) {
+  header {
+    padding: 24px;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
