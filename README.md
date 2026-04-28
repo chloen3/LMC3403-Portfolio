@@ -1,4 +1,4 @@
-# Chloe Nicola Portfolio
+# Chloe Nicola LMC 3403 Portfolio
 
 This repository contains my final portfolio for LMC 3403 (Technical Communication) at Georgia Tech. The site showcases my development as a technical communicator through coursework and professional projects.
 
