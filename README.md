@@ -4,7 +4,7 @@ This repository contains my final portfolio for LMC 3403 (Technical Communicatio
 
 ## Live Site
 View my portfolio here:  
-👉 https://chloenicola.github.io/chloe-portfolio/
+👉 https://chloen3.github.io/LMC3403-Portfolio/
 
 ---
 
