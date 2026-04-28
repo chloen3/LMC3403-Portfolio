@@ -1,91 +1,116 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
-  background-color: #fafafa;
-  color: #222;
-  line-height: 1.6;
+  background: linear-gradient(135deg, #fdf2f8, #eef2ff);
+  color: #333;
+  line-height: 1.7;
 }
 
+/* HEADER */
 header {
-  background-color: #111827;
+  background: linear-gradient(135deg, #a5b4fc, #f9a8d4);
   color: white;
-  padding: 28px 60px;
+  padding: 40px 60px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
 header h1 {
   margin: 0;
-  font-size: 32px;
+  font-size: 42px;
+  font-weight: 600;
 }
 
 nav {
-  margin-top: 16px;
+  margin-top: 20px;
 }
 
 nav a {
   color: white;
-  margin-right: 18px;
+  margin: 0 12px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.2s ease;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  opacity: 0.8;
 }
 
 main {
-  max-width: 950px;
-  margin: 40px auto;
-  padding: 0 24px;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 20px;
 }
 
 .card {
   background: white;
-  padding: 24px;
-  margin-bottom: 24px;
-  border-radius: 14px;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.12);
 }
 
 h2 {
-  color: #111827;
-  margin-top: 0;
+  font-size: 26px;
+  margin-bottom: 12px;
+  color: #7c3aed;
+}
+
+p {
+  font-size: 16.5px;
 }
 
 .button {
   display: inline-block;
-  background-color: #111827;
+  background: linear-gradient(135deg, #a5b4fc, #f9a8d4);
   color: white;
-  padding: 10px 16px;
-  border-radius: 8px;
+  padding: 12px 18px;
+  border-radius: 999px;
   text-decoration: none;
-  margin-top: 10px;
-  margin-right: 8px;
+  margin-top: 12px;
+  margin-right: 10px;
+  font-size: 14px;
+  transition: 0.2s ease;
 }
 
 .button:hover {
-  background-color: #374151;
+  transform: scale(1.05);
+  opacity: 0.9;
 }
 
 img {
   max-width: 100%;
-  border-radius: 12px;
+  border-radius: 16px;
+  margin-top: 15px;
 }
 
 .project-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 24px;
+  gap: 30px;
 }
 
 footer {
   text-align: center;
   padding: 30px;
-  color: #666;
+  color: #777;
 }
 
 @media (max-width: 700px) {
   header {
-    padding: 24px;
+    padding: 30px 20px;
+  }
+
+  header h1 {
+    font-size: 32px;
   }
 
   .project-grid {
